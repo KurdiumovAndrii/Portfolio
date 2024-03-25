@@ -74,6 +74,11 @@ body {
 	padding: 0 15px;
 	max-width: 1200px;
 }
+.container-about{
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 512px;
+}
 
 .none {
 	display: none !important;
@@ -95,11 +100,17 @@ body {
 
 .title-2 {
 	margin-bottom: 20px;
+	margin-top: 20px;
 
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.3;
 }
+
+.about-image{
+		justify-content: center;
+}
+
 
 /* Dark mode btn */
 
@@ -238,12 +249,22 @@ body {
 	text-align: center;
 }
 
+.content-list-about {
+	margin: 0 auto;
+	max-width: 1080px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 40px;
+	text-align: center;
+}
+
 .content-list a {
 	color: var(--accent);
 }
 
 .content-list__item {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 }
 

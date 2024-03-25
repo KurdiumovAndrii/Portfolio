@@ -7,7 +7,6 @@ function Home () {
 
         <main className="section">
             <div className="container">
-    
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 class="title-2">Languages</h2>

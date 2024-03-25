@@ -34,6 +34,10 @@ return (
                             Projects
                         </NavLink></li>
                     <li className="nav-list__item">
+                        <NavLink to="/about" className={({isActive}) =>  isActive ? activeLink : link}>
+                            About Me
+                        </NavLink></li>
+                    <li className="nav-list__item">
                         <NavLink to="/contact" className={({isActive}) =>  isActive ? activeLink : link}>
                             Contact
                         </NavLink></li>
