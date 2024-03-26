@@ -1,4 +1,5 @@
 import "./style.css";
+import Me1 from './../../img/about/Me1.jpg'
 import CV from './../utilities/Andrii_Kurdiumov_CV_English.pdf'
 
 function Header () {
@@ -6,6 +7,7 @@ function Header () {
         <header className="header">
         <div className="header__wrapper">
             <h1 className="header__title">
+            <img src={Me1} alt=""/>
                 <strong>Hello, my name is <em>Andrii Kurdiumov</em></strong><br />
                 Im student of computer science
             </h1>

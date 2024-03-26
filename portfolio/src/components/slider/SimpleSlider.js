@@ -7,6 +7,7 @@ import Me1 from './../../img/about/Me1.jpg'
 import Me2 from './../../img/about/Me2.jpg'
 import Me3 from './../../img/about/Me3.jpg'
 import Me4 from './../../img/about/Me4.jpg'
+import Me5 from './../../img/about/Me5.jpg'
 
 export default function SimpleSlider() {
   var settings = {
@@ -30,6 +31,9 @@ export default function SimpleSlider() {
       </div>
       <div>
         <img src={Me4} alt='' className="about-image"/>
+      </div>
+      <div>
+        <img src={Me5} alt='' className="about-image"/>
       </div>
     </Slider>
     </div>
