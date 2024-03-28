@@ -11,7 +11,7 @@ function Contact () {
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Telegram</h2>
-                        <p><a href="tel:+380633731016">+38 (063) 373-10-16</a></p>
+                        <p><a href="tel:+380633731016">+48 536-576-474</a></p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
